@@ -1,0 +1,4 @@
+class Subtopic < ActiveRecord::Base
+has_many :subsubtopics
+belongs_to :topic
+end

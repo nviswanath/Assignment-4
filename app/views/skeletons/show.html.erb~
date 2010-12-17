@@ -1,0 +1,19 @@
+
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @skeleton.title %>
+  <br/>
+  <ol>
+	  <% @skeleton.topics.each do |topic| %>
+		  <br/>
+		  Topic 
+		  
+  </ol>
+
+</p>
+
+
+
